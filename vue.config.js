@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "/wegnersweihnachtswichteln", //enter the name of the git repo here
+  publicPath: "/zufallsgenerator", //enter the name of the git repo here
   outputDir: "./docs",
   //pwa: {
   //workboxPluginMode: "InjectManifest",
