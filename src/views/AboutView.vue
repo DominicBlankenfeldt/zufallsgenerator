@@ -198,13 +198,10 @@ export default defineComponent({
           werhatwenhelper.push({ ...doc.data() });
         });
         let a = werhatwenhelper[2];
-        console.log(a);
         this.werhatwen = [];
         a.werhatwen.forEach((e: any) => {
           this.werhatwen.push(e);
         });
-        console.log(werhatwenhelper[2]);
-        console.log(this.werhatwen);
       });
     },
     async getVerpartnert() {
