@@ -1,8 +1,5 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <img alt="Vue logo" @click="$router.push('/')" src="./assets/wegners.gif" />
   <router-view />
 </template>
 
@@ -26,5 +23,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+img {
+  width: 100%;
 }
 </style>
