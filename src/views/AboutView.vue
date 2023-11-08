@@ -87,7 +87,6 @@
         </div>
       </div>
     </div>
-    <div class="btn btn-success" @click="dothis()">klick</div>
   </div>
 </template>
 
